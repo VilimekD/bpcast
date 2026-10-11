@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Moje NotebookLM Podcasty</title>
+    <link>https://github.com</link>
+    <description>Osobní studijní nahrávky</description>
+    <language>cs</language>
+    
+    <!-- Zákaz indexace podcastovými platformami a vyhledávači -->
+    <itunes:block>yes</itunes:block>
+
+    <!-- Zde začínají jednotlivé epizody -->
+    <item>
+      <title>01 - První téma z NotebookLM</title>
+      <description>Shrnutí podkladů a analýza.</description>
+      <!-- Vložte URL zkopírovanou z Releases a velikost souboru v bajtech -->
+      <enclosure url="https://github.com/VilimekD/bpcast/releases/download/v1.0/Jak_vyrobit_dokonale_dvoufazove_kapky.m4a" length="25000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">epizoda-001</guid>
+      <pubDate>Sun, 11 Oct 2026 19:00:00 +0200</pubDate>
+    </item>
+
+  </channel>
+</rss>
